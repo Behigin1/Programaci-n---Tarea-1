@@ -28,14 +28,14 @@ class Program
 
     static void Main()
     {
-        Console.Write("Ingresa tu nombre: ");
+        Console.Write("Pon tu nombre Causita: ");
         string nombre = Console.ReadLine();
         Player jugador = new Player(nombre);
         jugador.MostrarMensaje();
 
         List<string> inventario = new List<string>();
 
-        Console.WriteLine("\nDecides explorar la cueva...");
+        Console.WriteLine("Decides explorar la cueva...");
         string eleccion1 = Decision("¿Vas a la izquierda o a la derecha?", new string[] { "izquierda", "derecha" });
         Console.WriteLine("Has elegido: " + mapa[eleccion1]);
 

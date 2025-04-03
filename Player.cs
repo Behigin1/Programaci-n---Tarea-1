@@ -14,7 +14,7 @@ namespace PrograClase1
 
         public override void MostrarMensaje()
         {
-            Console.WriteLine("Eres un aventurero valiente en busca de un tesoro.");
+            Console.WriteLine("Eres un aventurero Macho Alfa, Lomo Plateado en busca de un tesoro.");
         }
     }
 }
